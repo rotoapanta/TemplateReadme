@@ -1,4 +1,4 @@
-# prueba2 de Badgas
+# Prueba de Insignias (Badges) Github
 
 ![Python Version](https://img.shields.io/pypi/pyversions/3)
 [![GitHub issues](https://img.shields.io/github/issues/rotoapanta/prueba2)](https://github.com/rotoapanta/prueba2/issues)
