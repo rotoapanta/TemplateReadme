@@ -5,3 +5,4 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/rotoapanta/prueba2)
 ![GitHub last commit](https://img.shields.io/github/last-commit/rotoapanta/prueba2)
 ![GitHub forks](https://img.shields.io/github/forks/rotoapanta/prueba2?style=plastic)
+![GitHub issues](https://img.shields.io/github/issues/rotoapanta/prueba2)
