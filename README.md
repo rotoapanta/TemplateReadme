@@ -2,4 +2,4 @@
 
 ![Python Version](https://img.shields.io/pypi/pyversions/3)
 
-![Python Version](https://img.shields.io/github/directory-file-count/rotoapanta/prueba2)
+[![GitHub issues](https://img.shields.io/github/issues/rotoapanta/prueba2)](https://github.com/rotoapanta/prueba2/issues)
