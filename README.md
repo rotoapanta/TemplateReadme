@@ -6,7 +6,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/rotoapanta/prueba2)
 ![GitHub forks](https://img.shields.io/github/forks/rotoapanta/prueba2?style=plastic)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+![GitHub commit merge status](https://img.shields.io/github/commit-status/rotoapanta/prueba2/main/6a500cc65d)
 
 ##Índice
 
