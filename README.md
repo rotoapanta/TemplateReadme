@@ -1,3 +1,10 @@
+# <p align="center">Prueba de Insignias (Badges) Github
+
+<p align="center">This is an implementation of a readme as a template and the creation and identification of badges  <a href="https://core.telegram.org/bots/api">Telegram Bot API</a>.</p>
+<p align="center">Both synchronous and asynchronous.</p>
+
+## <p align="center">Supported Bot API version: <a href="https://core.telegram.org/bots/api#june-20-2022">6.1</a>!
+
 ![Python Version](https://img.shields.io/pypi/pyversions/3)
 [![GitHub issues](https://img.shields.io/github/issues/rotoapanta/prueba2)](https://github.com/rotoapanta/prueba2/issues)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rotoapanta/prueba2)
@@ -7,15 +14,6 @@
 ![GitHub commit merge status](https://img.shields.io/github/commit-status/rotoapanta/prueba2/main/6a500cc65d)
 ![Discord](https://img.shields.io/discord/996422496842694726?style=plastic)
 [![Discord Invite](https://img.shields.io/badge/discord-join%20now-green)](https://discord.gg/pp73rEVE)
-
-# <p align="center">Prueba de Insignias (Badges) Github
-
-<p align="center">This is an implementation of a readme as a template and the creation and identification of badges  <a href="https://core.telegram.org/bots/api">Telegram Bot API</a>.</p>
-<p align="center">Both synchronous and asynchronous.</p>
-
-## <p align="center">Supported Bot API version: <a href="https://core.telegram.org/bots/api#june-20-2022">6.1</a>!
-
-<h2><a href='https://pytba.readthedocs.io/en/latest/index.html'>Official documentation</a></h2>
 
 ## Contents
 
