@@ -25,7 +25,6 @@
     * [A simple echo bot](#a-simple-echo-bot)
   * [General API Documentation](#general-api-documentation)
     * [Types](#types)
-
     * [General use of the API](#general-use-of-the-api)
     * [Feedback](#feedback)
       * [Message handlers](#message-handlers)
