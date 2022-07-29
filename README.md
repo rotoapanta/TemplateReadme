@@ -6,6 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub commit merge status](https://img.shields.io/github/commit-status/rotoapanta/prueba2/main/6a500cc65d)
 ![Discord](https://img.shields.io/discord/996422496842694726?style=plastic)
+[![Discord Invite](https://img.shields.io/badge/discord-join%20now-green)](https://discord.gg/pp73rEVE)
 
 # <p align="center">Prueba de Insignias (Badges) Github
 
