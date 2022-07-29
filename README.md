@@ -186,43 +186,6 @@ Handle channel post messages
 Handle edited channel post messages
 `@bot.edited_channel_post_handler(filters) # <- passes a Message type object to your function`
 
-#### Callback Query Handler
-Handle callback queries
-```python
-@bot.callback_query_handler(func=lambda call: True)
-def test_callback(call): # <- passes a CallbackQuery type object to your function
-    logger.info(call)
-```
-
-#### Shipping Query Handler
-Handle shipping queries
-`@bot.shipping_query_handeler() # <- passes a ShippingQuery type object to your function`
-
-#### Pre Checkout Query Handler
-Handle pre checkoupt queries
-`@bot.pre_checkout_query_handler() # <- passes a PreCheckoutQuery type object to your function`
-
-#### Poll Handler
-Handle poll updates
-`@bot.poll_handler() # <- passes a Poll type object to your function`
-
-#### Poll Answer Handler
-Handle poll answers
-`@bot.poll_answer_handler() # <- passes a PollAnswer type object to your function`
-
-#### My Chat Member Handler
-Handle updates of a the bot's member status in a chat
-`@bot.my_chat_member_handler() # <- passes a ChatMemberUpdated type object to your function`
-
-#### Chat Member Handler
-Handle updates of a chat member's status in a chat
-`@bot.chat_member_handler() # <- passes a ChatMemberUpdated type object to your function`
-*Note: "chat_member" updates are not requested by default. If you want to allow all update types, set `allowed_updates` in `bot.polling()` / `bot.infinity_polling()` to `util.update_types`*
-
-#### Chat Join Request Handler	
-Handle chat join requests using:
-`@bot.chat_join_request_handler() # <- passes ChatInviteLink type object to your function`
-
 ### Inline Mode
 
 More information about [Inline mode](https://core.telegram.org/bots/inline).
@@ -237,35 +200,6 @@ Now, you can use inline_handler to get inline queries in telebot.
 def query_text(inline_query):
     # Query message is text
 ```
-
-#### Chosen Inline handler
-
-Use chosen_inline_handler to get chosen_inline_result in telebot. Don't forgot add the /setinlinefeedback
-command for @Botfather.
-
-More information : [collecting-feedback](https://core.telegram.org/bots/inline#collecting-feedback)
-
-```python
-@bot.chosen_inline_handler(func=lambda chosen_inline_result: True)
-def test_chosen(chosen_inline_result):
-    # Process all chosen_inline_result.
-```
-
-#### Answer Inline Query
-
-```python
-@bot.inline_handler(lambda query: query.query == 'text')
-def query_text(inline_query):
-    try:
-        r = types.InlineQueryResultArticle('1', 'Result', types.InputTextMessageContent('Result message.'))
-        r2 = types.InlineQueryResultArticle('2', 'Result2', types.InputTextMessageContent('Result message2.'))
-        bot.answer_inline_query(inline_query.id, [r, r2])
-    except Exception as e:
-        print(e)
-
-```
-
-
 
 ## Environment Variables
 
