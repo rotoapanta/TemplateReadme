@@ -209,14 +209,6 @@ To run this project, you will need to add the following environment variables to
 
 `ANOTHER_API_KEY`
 
-## Feedback
-
-If you have any feedback, please reach out to us at robertocarlos.toapanta@gmail.com
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
 ## Running Tests
 
 To run tests, run the following command
@@ -234,11 +226,17 @@ function App() {
   return <Component />
 }
 ```
+## Feedback
+
+If you have any feedback, please reach out to us at robertocarlos.toapanta@gmail.com
 
 ## Support
 
 For support, email robertocarlos.toapanta@gmail.com or join our Slack channel.
 
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Autors
 - [@rotoapanta](https://github.com/rotoapanta)
