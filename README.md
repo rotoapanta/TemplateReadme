@@ -347,6 +347,13 @@ class Middleware(BaseMiddleware):
             print(exception)
 ```
 
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm run test
+```
 
 ## Usage/Examples
 
@@ -357,6 +364,10 @@ function App() {
   return <Component />
 }
 ```
+
+## Support
+
+For support, email robertocarlos.toapanta@gmail.com or join our Slack channel.
 
 
 ## Autors
