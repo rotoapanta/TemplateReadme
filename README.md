@@ -31,6 +31,8 @@
       * [Edited Message handler](#edited-message-handler)
       * [Channel Post handler](#channel-post-handler)
 
+  * [Links](#getting-started)
+
 ## Getting started
 
 This document is the creation of a Readme.rm template for future projects.
