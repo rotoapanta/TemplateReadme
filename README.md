@@ -1,4 +1,4 @@
-# <p align="center">Prueba de Insignias (Badges) Github
+# <p align="center">Readme.md template and badge usage on GitHub
 
 <p align="center">This is an implementation of a readme as a template and the creation and identification of badges  <a href="https://core.telegram.org/bots/api">Telegram Bot API</a>.</p>
 <p align="center">Both synchronous and asynchronous.</p>
