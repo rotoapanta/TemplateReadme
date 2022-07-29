@@ -31,7 +31,7 @@
       * [Edited Message handler](#edited-message-handler)
       * [Channel Post handler](#channel-post-handler)
 
-  * [Links](#getting-started)
+  * [Links](#links)
 
 ## Getting started
 
