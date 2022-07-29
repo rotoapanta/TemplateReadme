@@ -25,15 +25,21 @@
     * [A simple echo bot](#a-simple-echo-bot)
   * [General API Documentation](#general-api-documentation)
     * [Types](#types)
-  * [Methods](#methods)
-  * [Autors](#autors)
-  * [Links](#links)
+
     * [General use of the API](#general-use-of-the-api)
     * [Feedback](#feedback)
       * [Message handlers](#message-handlers)
       * [Edited Message handler](#edited-message-handler)
       * [Channel Post handler](#channel-post-handler)
-    
+  * [Methods](#methods)
+  * [Environment Variables](#environment-variables)
+  * [Running Tests](#running-tests)
+  * [Usage/Examples](#usage-examples)
+  * [Feedback](#feedback)
+  * [Support](#support)
+  * [License](#license)
+  * [Autors](#autors)
+  * [Links](#links)
 
 ## Getting started
 
