@@ -53,6 +53,13 @@ or:
 $ pip install git+https://github.com/eternnoir/pyTelegramBotAPI.git
 ```
 
+```sh
+cd dillinger
+npm i
+node app
+```
+
+
 It is generally recommended to use the first option.
 
 *While the API is production-ready, it is still under development and it has regular updates, do not forget to update it regularly by calling*
