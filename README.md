@@ -25,9 +25,9 @@
     * [A simple echo bot](#a-simple-echo-bot)
   * [General API Documentation](#general-api-documentation)
     * [Types](#types)
-    * [Methods](#methods)
-    * [Autors](#autors)
-    * [Links](#links)
+  * [Methods](#methods)
+  * [Autors](#autors)
+  * [Links](#links)
     * [General use of the API](#general-use-of-the-api)
     * [Feedback](#feedback)
       * [Message handlers](#message-handlers)
@@ -245,6 +245,6 @@ For support, email robertocarlos.toapanta@gmail.com or join our Slack channel.
 ## Autors
 - [@rotoapanta](https://github.com/rotoapanta)
 
-## 🔗 Links
+## Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roberto-carlos-toapanta-g/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/rotoapanta)
