@@ -346,6 +346,9 @@ class Middleware(BaseMiddleware):
         if exception: # check for exception
             print(exception)
 ```
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Running Tests
 
