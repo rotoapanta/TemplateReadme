@@ -26,6 +26,8 @@
   * [General API Documentation](#general-api-documentation)
     * [Types](#types)
     * [Methods](#methods)
+    * [Autors](#autors)
+    * [Links](#links)
     * [General use of the API](#general-use-of-the-api)
     * [Feedback](#feedback)
       * [Message handlers](#message-handlers)
