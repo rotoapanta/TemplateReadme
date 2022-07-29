@@ -265,46 +265,7 @@ def query_text(inline_query):
 
 ```
 
-### Additional API features
 
-#### Middleware Handlers
-
-A middleware handler is a function that allows you to modify requests or the bot context as they pass through the 
-Telegram to the bot. You can imagine middleware as a chain of logic connection handled before any other handlers are
-executed. Middleware processing is disabled by default, enable it by setting `apihelper.ENABLE_MIDDLEWARE = True`. 
-
-```python
-apihelper.ENABLE_MIDDLEWARE = True
-
-@bot.middleware_handler(update_types=['message'])
-def modify_message(bot_instance, message):
-    # modifying the message before it reaches any other handler 
-    message.another_text = message.text + ':changed'
-
-@bot.message_handler(commands=['start'])
-def start(message):
-    # the message is already modified when it reaches message handler
-    assert message.another_text == message.text + ':changed'
-```
-There are other examples using middleware handler in the [examples/middleware](examples/middleware) directory.
-
-#### Class-based middlewares
-There are class-based middlewares. 
-Basic class-based middleware looks like this:
-```python
-class Middleware(BaseMiddleware):
-    def __init__(self):
-        self.update_types = ['message']
-    def pre_process(self, message, data):
-        data['foo'] = 'Hello' # just for example
-        # we edited the data. now, this data is passed to handler.
-        # return SkipHandler() -> this will skip handler
-        # return CancelUpdate() -> this will cancel update
-    def post_process(self, message, data, exception=None):
-        print(data['foo'])
-        if exception: # check for exception
-            print(exception)
-```
 
 ## Environment Variables
 
