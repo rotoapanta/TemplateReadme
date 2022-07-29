@@ -347,6 +347,18 @@ class Middleware(BaseMiddleware):
             print(exception)
 ```
 
+
+## Usage/Examples
+
+```javascript
+import Component from 'my-project'
+
+function App() {
+  return <Component />
+}
+```
+
+
 ## Autors
 - [@rotoapanta](https://github.com/rotoapanta)
 
