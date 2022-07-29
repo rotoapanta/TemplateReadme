@@ -171,48 +171,7 @@ TeleBot supports the following filters:
 |commands|list of strings|`True` if `message.content_type == 'text'` and `message.text` starts with a command that is in the list of strings.|
 |chat_types|list of chat types|`True` if `message.chat.type` in your filter|
 |func|a function (lambda or function reference)|`True` if the lambda or function reference returns `True`|
-	
-Here are some examples of using the filters and message handlers:
 
-```python
-import telebot
-bot = telebot.TeleBot("TOKEN")
-
-# Handles all text messages that contains the commands '/start' or '/help'.
-@bot.message_handler(commands=['start', 'help'])
-def handle_start_help(message):
-	pass
-
-# Handles all sent documents and audio files
-@bot.message_handler(content_types=['document', 'audio'])
-def handle_docs_audio(message):
-	pass
-
-# Handles all text messages that match the regular expression
-@bot.message_handler(regexp="SOME_REGEXP")
-def handle_message(message):
-	pass
-
-# Handles all messages for which the lambda returns True
-@bot.message_handler(func=lambda message: message.document.mime_type == 'text/plain', content_types=['document'])
-def handle_text_doc(message):
-	pass
-
-# Which could also be defined as:
-def test_message(message):
-	return message.document.mime_type == 'text/plain'
-
-@bot.message_handler(func=test_message, content_types=['document'])
-def handle_text_doc(message):
-	pass
-
-# Handlers can be stacked to create a function which will be called if either message_handler is eligible
-# This handler will be called if the message starts with '/hello' OR is some emoji
-@bot.message_handler(commands=['hello'])
-@bot.message_handler(func=lambda msg: msg.text.encode("utf-8") == SOME_FANCY_EMOJI)
-def send_something(message):
-    pass
-```
 **Important: all handlers are tested in the order in which they were declared**
 
 #### Edited Message handler
@@ -346,6 +305,19 @@ class Middleware(BaseMiddleware):
         if exception: # check for exception
             print(exception)
 ```
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`API_KEY`
+
+`ANOTHER_API_KEY`
+
+## Feedback
+
+If you have any feedback, please reach out to us at robertocarlos.toapanta@gmail.com
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
