@@ -1,5 +1,3 @@
-# Prueba de Insignias (Badges) Github
-
 ![Python Version](https://img.shields.io/pypi/pyversions/3)
 [![GitHub issues](https://img.shields.io/github/issues/rotoapanta/prueba2)](https://github.com/rotoapanta/prueba2/issues)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rotoapanta/prueba2)
@@ -9,7 +7,7 @@
 ![GitHub commit merge status](https://img.shields.io/github/commit-status/rotoapanta/prueba2/main/6a500cc65d)
 ![Discord](https://img.shields.io/discord/996422496842694726?style=plastic)
 
-# <p align="center">pyTelegramBotAPI
+# <p align="center">Prueba de Insignias (Badges) Github
 
 <p align="center">A simple, but extensible Python implementation for the <a href="https://core.telegram.org/bots/api">Telegram Bot API</a>.</p>
 <p align="center">Both synchronous and asynchronous.</p>
