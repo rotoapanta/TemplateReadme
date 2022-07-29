@@ -9,7 +9,7 @@
 
 # <p align="center">Prueba de Insignias (Badges) Github
 
-<p align="center">A simple, but extensible Python implementation for the <a href="https://core.telegram.org/bots/api">Telegram Bot API</a>.</p>
+<p align="center">This is an implementation of a Readme file as a Template  <a href="https://core.telegram.org/bots/api">Telegram Bot API</a>.</p>
 <p align="center">Both synchronous and asynchronous.</p>
 
 ## <p align="center">Supported Bot API version: <a href="https://core.telegram.org/bots/api#june-20-2022">6.1</a>!
