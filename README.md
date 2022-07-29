@@ -27,11 +27,11 @@
     * [Types](#types)
     * [Methods](#methods)
     * [General use of the API](#general-use-of-the-api)
+    * [Feedback](#feedback)
       * [Message handlers](#message-handlers)
       * [Edited Message handler](#edited-message-handler)
       * [Channel Post handler](#channel-post-handler)
-
-  * [Links](#links)
+    
 
 ## Getting started
 
